@@ -1,580 +1,781 @@
-.desktop,
-.desktop * {
+.about-me,
+.about-me * {
   box-sizing: border-box;
 }
-.desktop {
-  background: #ffffff;
-  width: 1440px;
-  height: 2182px;
+.about-me {
+  background: #020617;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
   position: relative;
   overflow: hidden;
 }
-.rectangle-41 {
-  background: #edf7fa;
-  width: 1440px;
-  height: 389px;
-  position: absolute;
-  left: 0px;
-  top: 752px;
+.frame-83 {
+  padding: 16px 8px 16px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
 }
-.work {
-  color: var(--light, #7b8895);
-  text-align: left;
-  font: 500 20px "Poppins", sans-serif;
-  position: absolute;
-  left: 1006px;
-  top: 56px;
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 369px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
 }
-.mk {
-  color: #000000;
+.about-me2 {
   text-align: left;
-  font: 600 20px "Poppins", sans-serif;
-  position: absolute;
-  left: 160px;
-  top: 56px;
+  font: 700 24px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.about-me-2-span {
+  color: #ffffff;
+  font: 700 24px "Lexend Deca", sans-serif;
+}
+.about-me-2-span2 {
+  color: #eab308;
+  font: 700 24px "Lexend Deca", sans-serif;
+}
+.frame-31 {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.about {
+  color: #9ca3af;
+  text-align: left;
+  font: 400 16px "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.skills {
+  color: #9ca3af;
+  text-align: left;
+  font: 400 16px "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.my-projects {
+  color: #9ca3af;
+  text-align: left;
+  font: 400 16px "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.resume {
+  color: #9ca3af;
+  text-align: left;
+  font: 400 16px "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  position: relative;
 }
 .blog {
-  color: var(--light, #7b8895);
+  color: #9ca3af;
   text-align: left;
-  font: 500 20px "Poppins", sans-serif;
-  position: absolute;
-  left: 1102px;
-  top: 56px;
+  font: 400 16px "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  position: relative;
 }
-.contact {
-  color: var(--light, #7b8895);
+.cont-act {
+  color: #9ca3af;
   text-align: left;
-  font: 500 20px "Poppins", sans-serif;
-  position: absolute;
-  left: 1198px;
-  top: 56px;
+  font: 400 16px "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+  position: relative;
 }
-.i-am-max-creative-technologist {
-  color: var(--dark-color, #21243d);
-  text-align: left;
-  font: 700 44px/60px "Heebo", sans-serif;
-  position: absolute;
-  left: 160px;
-  top: 248px;
-}
-.hola {
-  color: #ff6464;
-  text-align: left;
-  font: 400 20px "Roboto", sans-serif;
-  position: absolute;
-  left: 160px;
-  top: 209px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
-}
-.ellipse-3 {
-  background: linear-gradient(to left, #edf7fa, #edf7fa);
-  border-radius: 50%;
-  width: 328px;
-  height: 328px;
-  position: absolute;
-  left: 928px;
-  top: 256px;
-}
-.integer-eget-rutrum-odio-vestibulum-lobortis-nibh-nec-tempus-pharetra-maecenas-a-tincidunt-libero-nunc-vitae-luctus-magna-nulla-eleifend-velit-a-laoreet-egestas-elit-felis-finibus-purus-efficitur-iaculis-neque-leo-non-purus {
-  color: var(--light, #7b8895);
-  text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 160px;
-  top: 408px;
-  width: 544px;
-}
-.integer-eget-rutrum-odio-vestibulum-lobortis-nibh-nec-tempus-pharetra-maecenas-a-tincidunt-libero-nunc-vitae-luctus-magna-nulla-eleifend-velit-a-laoreet-egestas-elit-felis-finibus-purus-efficitur-iaculis-neque-leo-non-purus2 {
-  color: var(--light, #7b8895);
-  text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 448px;
-  top: 1368px;
-  width: 736px;
-}
-.integer-eget-rutrum-odio-vestibulum-lobortis-nibh-nec-tempus-pharetra-maecenas-a-tincidunt-libero-nunc-vitae-luctus-magna-nulla-eleifend-velit-a-laoreet-egestas-elit-felis-finibus-purus-efficitur-iaculis-neque-leo-non-purus3 {
-  color: var(--light, #7b8895);
-  text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 448px;
-  top: 1600px;
-  width: 736px;
-}
-.integer-eget-rutrum-odio-vestibulum-lobortis-nibh-nec-tempus-pharetra-maecenas-a-tincidunt-libero-nunc-vitae-luctus-magna-nulla-eleifend-velit-a-laoreet-egestas-elit-felis-finibus-purus-efficitur-iaculis-neque-leo-non-purus4 {
-  color: var(--light, #7b8895);
-  text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 448px;
-  top: 1840px;
-  width: 736px;
-}
-.group-10 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-42 {
-  background: #ff6464;
-  width: 256px;
-  height: 56px;
-  position: absolute;
-  left: calc(50% - 560px);
-  top: calc(50% - 531px);
-}
-.hire-me {
-  color: #ffffff;
-  text-align: left;
-  font: 500 20px "Heebo", sans-serif;
-  position: absolute;
-  left: calc(50% - 470px);
-  top: calc(50% - 517px);
-}
-.group-11 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-43 {
-  border-style: solid;
-  border-color: var(--secondry, #00a8cc);
-  border-width: 1px;
-  width: 256px;
-  height: 56px;
-  position: absolute;
-  left: calc(50% - 272px);
-  top: calc(50% - 531px);
-}
-.download-cv {
-  color: var(--secondry, #00a8cc);
-  text-align: left;
-  font: 500 20px "Heebo", sans-serif;
-  position: absolute;
-  left: calc(50% - 205px);
-  top: calc(50% - 517px);
-}
-.recent-posts {
-  color: var(--dark-color, #21243d);
-  text-align: left;
-  font: 400 22px "Heebo", sans-serif;
-  position: absolute;
-  left: 160px;
-  top: 781px;
+.herosection {
+  background: #111827;
+  padding: 96px 165px 96px 165px;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
   justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
 }
-.featured-works {
-  color: var(--dark-color, #21243d);
-  text-align: left;
-  font: 400 22px "Heebo", sans-serif;
-  position: absolute;
-  left: 160px;
-  top: 1205px;
+.frame-34 {
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
+  gap: 199px;
+  align-items: center;
   justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
 }
-.view-all {
-  color: var(--secondry, #00a8cc);
-  text-align: right;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 1224px;
-  top: 785px;
+.frame-33 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
 }
-.group-12 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-44 {
-  background: #ffffff;
-  width: 352px;
-  height: 252px;
-  position: absolute;
-  left: 160px;
-  top: 837px;
-}
-.integer-eget-rutrum-odio-vestibulum-lobortis-nibh-nec-tempus-pharetra-maecenas-a-tincidunt-libero {
-  color: var(--light, #7b8895);
+.hello-welcome {
+  color: #eab308;
   text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 181px;
-  top: 993px;
-  width: 310px;
+  font: 400 16px/27px "Lexend Deca", sans-serif;
+  position: relative;
 }
-.making-a-design-system-from-scratch {
-  color: var(--dark-color, #21243d);
+.frame-35 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.i-m-lozi-yasser {
+  color: #f3f4f6;
   text-align: left;
-  font: 500 24px "Poppins", sans-serif;
-  position: absolute;
-  left: 181px;
-  top: 858px;
-  width: 272px;
-  height: 71px;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+  position: relative;
 }
-._12-feb-2020 {
-  color: var(--light-2, #94a4b5);
+.i-m-lozi-yasser-a-24-year-old-student-currently-pursuing-a-degree-in-industrial-design-engineering-at-zhejiang-university-i-come-from-morocco-a-beautiful-country-with-a-rich-culture-and-history {
+  color: #6b7280;
   text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 181px;
-  top: 945px;
+  font: 400 16px/27px "Lexend Deca", sans-serif;
+  position: relative;
 }
-.design-pattern {
-  color: var(--light-2, #94a4b5);
-  text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 382px;
-  top: 945px;
+.frame-23 {
+  background: #facc15;
+  border-radius: 4px;
+  padding: 8px 20px 8px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
 }
-.group-13 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-45 {
-  background: #ffffff;
-  width: 352px;
-  height: 252px;
-  position: absolute;
-  left: 544px;
-  top: 837px;
-}
-.integer-eget-rutrum-odio-vestibulum-lobortis-nibh-nec-tempus-pharetra-maecenas-a-tincidunt-libero2 {
-  color: var(--light, #7b8895);
-  text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 565px;
-  top: 993px;
-  width: 310px;
-}
-.creating-pixel-perfect-icons-in-figma {
-  color: var(--dark-color, #21243d);
-  text-align: left;
-  font: 500 24px "Poppins", sans-serif;
-  position: absolute;
-  left: 565px;
-  top: 858px;
-  width: 267px;
-  height: 71px;
-}
-._12-feb-20202 {
-  color: var(--light-2, #94a4b5);
-  text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 565px;
-  top: 945px;
-}
-.figma-icon-design {
-  color: var(--light-2, #94a4b5);
-  text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 739px;
-  top: 945px;
-}
-.group-14 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-46 {
-  background: #ffffff;
-  width: 352px;
-  height: 252px;
-  position: absolute;
-  left: 928px;
-  top: 837px;
-}
-.integer-eget-rutrum-odio-vestibulum-lobortis-nibh-nec-tempus-pharetra-maecenas-a-tincidunt-libero3 {
-  color: var(--light, #7b8895);
-  text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 949px;
-  top: 993px;
-  width: 310px;
-}
-.making-better-layout-grid-for-all-devices {
-  color: var(--dark-color, #21243d);
-  text-align: left;
-  font: 500 24px "Poppins", sans-serif;
-  position: absolute;
-  left: 949px;
-  top: 858px;
-  width: 267px;
-  height: 71px;
-}
-._12-feb-20203 {
-  color: var(--light-2, #94a4b5);
-  text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 949px;
-  top: 945px;
-}
-.figma-grid-design {
-  color: var(--light-2, #94a4b5);
-  text-align: left;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 1125px;
-  top: 945px;
-}
-.rectangle-47 {
-  background: var(--secondry, #00a8cc);
-  border-radius: 7px;
-  width: 256px;
-  height: 185px;
-  position: absolute;
-  left: 160px;
-  top: 1264px;
-}
-.rectangle-48 {
-  background: var(--secondry, #00a8cc);
-  border-radius: 7px;
-  width: 256px;
-  height: 185px;
-  position: absolute;
-  left: 160px;
-  top: 1496px;
-}
-.rectangle-50 {
-  background: var(--secondry, #00a8cc);
-  border-radius: 7px;
-  width: 256px;
-  height: 185px;
-  position: absolute;
-  left: 160px;
-  top: 1736px;
-}
-.designing-dashboards {
-  color: var(--dark-color, #21243d);
-  text-align: left;
-  font: 500 30px "Heebo", sans-serif;
-  position: absolute;
-  left: 448px;
-  top: 1256px;
-}
-.glassmorphism-design {
-  color: var(--dark-color, #21243d);
-  text-align: left;
-  font: 500 30px "Heebo", sans-serif;
-  position: absolute;
-  left: 448px;
-  top: 1488px;
-}
-.designing-portfolio {
-  color: var(--dark-color, #21243d);
-  text-align: left;
-  font: 500 30px "Heebo", sans-serif;
-  position: absolute;
-  left: 448px;
-  top: 1728px;
-}
-.dashboard {
-  color: var(--light, #7b8895);
-  text-align: left;
-  font: 400 20px "Heebo", sans-serif;
-  position: absolute;
-  left: 544px;
-  top: 1320px;
-}
-.glassmorphism {
-  color: var(--light, #7b8895);
-  text-align: left;
-  font: 400 20px "Heebo", sans-serif;
-  position: absolute;
-  left: 544px;
-  top: 1552px;
-}
-.portfolio {
-  color: var(--light, #7b8895);
-  text-align: left;
-  font: 400 20px "Heebo", sans-serif;
-  position: absolute;
-  left: 544px;
-  top: 1788px;
-}
-.group-15 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-2 {
-  background: #142850;
-  border-radius: 16px;
-  width: 62px;
-  height: 25px;
-  position: absolute;
-  left: 448px;
-  top: 1322px;
-}
-._2020 {
-  color: #ffffff;
-  text-align: left;
-  font: 900 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 460px;
-  top: 1323px;
-}
-.group-16 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-49 {
-  background: #142850;
-  border-radius: 16px;
-  width: 62px;
-  height: 25px;
-  position: absolute;
-  left: 448px;
-  top: 1554px;
-}
-._20202 {
-  color: #ffffff;
-  text-align: left;
-  font: 900 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 460px;
-  top: 1555px;
-}
-.group-17 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-51 {
-  background: #142850;
-  border-radius: 16px;
-  width: 62px;
-  height: 25px;
-  position: absolute;
-  left: 448px;
-  top: 1794px;
-}
-._20203 {
-  color: #ffffff;
-  text-align: left;
-  font: 900 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 460px;
-  top: 1795px;
-}
-.line-1 {
-  border-style: solid;
-  border-color: #e0e0e0;
-  border-width: 1px 0 0 0;
-  width: 1120px;
-  height: 0px;
-  position: absolute;
-  left: 160px;
-  top: 1472px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
-}
-.line-2 {
-  border-style: solid;
-  border-color: #e0e0e0;
-  border-width: 1px 0 0 0;
-  width: 1120px;
-  height: 0px;
-  position: absolute;
-  left: 160px;
-  top: 1704px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
-}
-.line-3 {
-  border-style: solid;
-  border-color: #e0e0e0;
-  border-width: 1px 0 0 0;
-  width: 1120px;
-  height: 0px;
-  position: absolute;
-  left: 160px;
-  top: 1944px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
-}
-.rectangle-52 {
-  background: #edf7fa;
-  width: 1440px;
-  height: 182px;
-  position: absolute;
-  left: 0px;
-  top: 2000px;
-}
-.group-8 {
-  position: absolute;
-  inset: 0;
-}
-.copyright {
+.contact-us {
   color: #000000;
-  text-align: center;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 590px;
-  top: 2112px;
+  text-align: left;
+  font: 400 16px/27px "Lexend Deca", sans-serif;
+  position: relative;
 }
-._2023-all-right-reserved {
-  color: #000000;
-  text-align: center;
-  font: 400 16px "Heebo", sans-serif;
-  position: absolute;
-  left: 681px;
-  top: 2112px;
+.rectangle-1037 {
+  border-radius: 24px;
+  flex-shrink: 0;
+  width: 427px;
+  height: 427px;
+  position: relative;
 }
-.group-7 {
-  width: 16px;
-  height: 16px;
+.aboutme {
+  padding: 96px 0px 96px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 89px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about2 {
+  flex-shrink: 0;
+  width: 487.96px;
+  height: 717px;
   position: static;
 }
-.ic-baseline-copyright {
+.rectangle-1004 {
+  border-radius: 24px;
+  border-style: solid;
+  border-color: #eab308;
+  border-width: 16px;
+  width: 487.96px;
+  height: 717px;
   position: absolute;
-  left: 662px;
-  top: 2116px;
+  left: 487.96px;
+  top: 96px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+.frame-38 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 339px;
+  position: relative;
+}
+.about-me3 {
+  text-align: left;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.about-me-3-span {
+  color: #f3f4f6;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+}
+.about-me-3-span2 {
+  color: #eab308;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+}
+.frame-37 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-36 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 127px;
+  position: relative;
+}
+.i-m-lozi-yasser-a-24-year-old-student-currently-pursuing-a-degree-in-industrial-design-engineering-at-zhejiang-university-i-come-from-morocco-a-beautiful-country-with-a-rich-culture-and-history2 {
+  color: #6b7280;
+  text-align: left;
+  font: 400 16px/27px "Lexend Deca", sans-serif;
+  position: relative;
+  width: 628px;
+  height: 72px;
+}
+.frame-24 {
+  background: #eab308;
+  border-radius: 4px;
+  padding: 16px 20px 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-me {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/27px "Arvo", sans-serif;
+  position: relative;
+}
+.myservice {
+  background: #111827;
+  padding: 96px 165px 96px 165px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-52 {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-41 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.my-skills {
+  text-align: left;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.my-skills-span {
+  color: #f3f4f6;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+}
+.my-skills-span2 {
+  color: #eab308;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+}
+.during-my-bachelor-i-learnt-a-lot-of-skills-but-these-are-my-best-ones {
+  color: #6b7280;
+  text-align: left;
+  font: 400 16px/27px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.frame-51 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-44 {
+  background: #020617;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-43 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame {
+  flex-shrink: 0;
+  position: relative;
   overflow: visible;
 }
-.group-3 {
-  position: absolute;
-  inset: 0;
+.frame-42 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
 }
-.mdi-twitter {
-  position: absolute;
-  left: 627px;
-  top: 2056px;
+.solid-works {
+  color: #f3f4f6;
+  text-align: center;
+  font: 700 26px/41px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.solid-works-is-a-popular-3-d-computer-aided-design-cad-software-used-for-creating-and-simulating-product-designs-in-various-industries {
+  color: #6b7280;
+  text-align: center;
+  font: 400 16px/27px "Lexend Deca", sans-serif;
+  position: relative;
+  width: 286px;
+}
+.frame-50 {
+  background: #020617;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-46 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 321px;
+  height: 264px;
+  position: relative;
+}
+.frame2 {
+  flex-shrink: 0;
+  position: relative;
   overflow: visible;
 }
-.group-4 {
-  position: absolute;
-  inset: 0;
+.frame-45 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
 }
-.mdi-linkedin {
-  position: absolute;
-  left: 735px;
-  top: 2056px;
+.ansys {
+  color: #f3f4f6;
+  text-align: center;
+  font: 700 26px/41px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.ansys-is-a-leading-simulation-software-utilized-for-engineering-simulations-including-structural-thermal-and-fluid-analysis-aiding-in-product-development-and-optimization-across-multiple-industries {
+  color: #6b7280;
+  text-align: center;
+  font: 400 14px/27px "Lexend Deca", sans-serif;
+  position: relative;
+  width: 286px;
+}
+.frame-49 {
+  background: #020617;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 361px;
+  height: 328px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-48 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame3 {
+  flex-shrink: 0;
+  position: relative;
   overflow: visible;
 }
-.group-5 {
-  position: absolute;
-  inset: 0;
+.frame-47 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
 }
-.ri-instagram-fill {
+.cnc {
+  color: #f3f4f6;
+  text-align: center;
+  font: 700 26px/41px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.a-cnc-computer-numerical-control-machine-is-an-automated-manufacturing-tool-that-operates-through-pre-programmed-computer-software-to-execute-precise-and-complex-machining-tasks-enhancing-efficiency-and-accuracy-in-production-processes-across-various-industries {
+  color: #6b7280;
+  text-align: center;
+  font: 400 12px/27px "Lexend Deca", sans-serif;
+  position: relative;
+  width: 286px;
+}
+.myportfolio {
+  padding: 96px 0px 96px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-54 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.my-project {
+  text-align: center;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.my-project-span {
+  color: #f3f4f6;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+}
+.my-project-span2 {
+  color: #eab308;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+}
+.this-is-a-simple-project-so-i-can-learn-how-to-use-fusion-360 {
+  color: #9ca3af;
+  text-align: center;
+  font: 400 16px/27px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.frame-58 {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.planet-gear-model-v-1-v-1-pic-2-1 {
+  flex-shrink: 0;
+  width: 403px;
+  height: 378px;
+  position: relative;
+}
+._6-b-95-e-8-a-2-5-f-61-4257-8-a-90-6974-ef-7-dcc-59-1 {
+  flex-shrink: 0;
+  width: 471px;
+  height: 378px;
+  position: relative;
+}
+.planet-gear-model-v-1-v-1-1 {
+  flex-shrink: 0;
+  width: 346px;
+  height: 378px;
+  position: relative;
+}
+.planet-gear-model-v-1-v-1-pic-1 {
+  flex-shrink: 0;
+  width: 273px;
+  height: 378px;
+  position: relative;
+}
+.contact {
+  padding: 96px 0px 96px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-75 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-30 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-me2 {
+  text-align: center;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.contact-me-2-span {
+  color: #f3f4f6;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+}
+.contact-me-2-span2 {
+  color: #eab308;
+  font: 700 42px/64px "Lexend Deca", sans-serif;
+}
+.on-wechat-lozi-1992-instagram-lozi-yasser {
+  color: #9ca3af;
+  text-align: center;
+  font: 400 16px/27px "Lexend Deca", sans-serif;
+  text-decoration: underline;
+  position: relative;
+  width: 685px;
+}
+.frame-81 {
+  display: flex;
+  flex-direction: row;
+  gap: 223px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-76 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.address-zhejiang-university-ningbo {
+  color: #eab308;
+  text-align: left;
+  font: 700 16px/41px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.frame-80 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-1 {
+  flex-shrink: 0;
+  width: 350px;
+  height: 63px;
+  position: static;
+}
+.rectangle-1033 {
+  background: #1f2937;
+  width: 350px;
+  height: 63px;
   position: absolute;
-  left: 681px;
-  top: 2056px;
+  left: 0px;
+  top: 0px;
+}
+.name {
+  color: #f3f4f6;
+  text-align: left;
+  font: 400 16px/41px "Lexend Deca", sans-serif;
+  position: absolute;
+  left: 18px;
+  top: 11px;
+}
+.group-2 {
+  flex-shrink: 0;
+  width: 540px;
+  height: 166px;
+  position: static;
+}
+.rectangle-1034 {
+  background: #1f2937;
+  width: 540px;
+  height: 166px;
+  position: absolute;
+  left: 0px;
+  top: 95px;
+}
+.message {
+  color: #f3f4f6;
+  text-align: left;
+  font: 400 16px/41px "Lexend Deca", sans-serif;
+  position: absolute;
+  left: 18px;
+  top: 105px;
+}
+.frame-25 {
+  background: #eab308;
+  border-radius: 4px;
+  padding: 16px 20px 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-us2 {
+  color: #000000;
+  text-align: left;
+  font: 400 16px/27px "Lexend Deca", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.frame-79 {
+  padding: 56px 0px 56px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-77 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about-me4 {
+  color: #ffffff;
+  text-align: center;
+  font: 700 40px "Lexend Deca", sans-serif;
+  position: relative;
+}
+.thank-you {
+  color: #9ca3af;
+  text-align: center;
+  font: 400 16px/27px "Lexend Deca", sans-serif;
+  position: relative;
+  width: 685px;
+}
+.frame-78 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame4 {
+  flex-shrink: 0;
+  position: relative;
   overflow: visible;
 }
-.group-6 {
-  position: absolute;
-  inset: 0;
+.frame5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
 }
-.gg-figma {
-  position: absolute;
-  left: 789px;
-  top: 2056px;
+.frame6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame9 {
+  flex-shrink: 0;
+  position: relative;
   overflow: visible;
 }
